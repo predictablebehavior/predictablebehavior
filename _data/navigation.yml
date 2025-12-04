@@ -1,0 +1,18 @@
+main:
+  - title: "Home"
+    url: /predictablebehavior/
+  - title: "Study"
+    url: /study/
+    children:
+      - title: "Microeconomics"
+        url: /research/microeconomics/
+      - title: "Econometrics"
+        url: /research/econometrics/
+      - title: "Mathmatics"
+        url: /research/math/
+      - title: "Game theory"
+        url: /research/game/
+  - title: "Notes"
+    url: /notes/
+  - title: "About"
+    url: /about/
