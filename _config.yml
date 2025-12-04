@@ -1,7 +1,7 @@
 title: "Predictable Behavior"
 description: "경제학 공부를 위한 개인 저장소"
-url: "https://predictablebehavior.github.io"
-baseurl: 
+url: "https://predictablebehavior.github.io"  # 사용자 페이지면 이거 그대로
+baseurl: ""                                   # 사용자 페이지면 비워둠
 
 remote_theme: "mmistakes/minimal-mistakes"
 
@@ -14,4 +14,29 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-archives
-  - jekyll-include-cache   # minimal-mistakes가 권장하는 플러그인
+  - jekyll-include-cache
+
+# 포스트(노트)를 카테고리로 관리할 거라 collections는 일단 안 씀
+# 나중에 정말 필요하면 study 같은 collection 추가 가능
+
+# Minimal Mistakes 기본 설정 몇 개 (필요한 정도만)
+paginate: 5
+paginate_path: "/page:num/"
+
+# 사이드바에서 쓸 기본 네비 이름
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      sidebar:
+        nav: "main"
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      sidebar:
+        nav: "main"
