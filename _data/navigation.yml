@@ -1,6 +1,6 @@
 main:
   - title: "Home"
-    url: /
+    url: /predictablebehavior/
 
   - title: "Notes"
     url: /notes/
