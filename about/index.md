@@ -1,9 +1,7 @@
 ---
-layout: single
-title: "About"
-permalink: /about/
-sidebar:
-  nav: main
+layout: default
+title: About
+nav_order: 1
 ---
 
 자기소개
