@@ -1,9 +1,8 @@
 ---
-layout: single
-title: "Econometrics"
-permalink: /study/econometrics/
-sidebar:
-  nav: main
+layout: default
+title: Econometrics
+nav_order: 1
+parent: Study
 ---
 
 경제학과 관련된 계량경제학 공부 정리노트
