@@ -1,9 +1,8 @@
 ---
-title: "Study"
-permalink: /study/
-layout: single
-sidebar:
-  nav: main
+layout: category
+title: "Math"
+permalink: /study/math/
+taxonomy: math
 ---
 
 ## Study
