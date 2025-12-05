@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Econometrics
+title: Study
 nav_order: 3
-parent: Study
+has_children: true
 ---
 
 공부하면서 기록하는 것들
