@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Study
+title: study
 nav_order: 3
 has_children: true
 ---
